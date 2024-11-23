@@ -20,7 +20,7 @@ import java.util.Scanner;
  */
 public class Runner {
     public static void main(String[] args) {
-        System.out.println("Вводите числа в коллекцию, для выхода введите 'exit' :");
+        System.out.println("Enter numbers into the collection, to exit enter 'exit':");
         List<Integer> collectionInt = new ArrayList<>();
 
             try (Scanner scanner = new Scanner(System.in)) {
